@@ -55,18 +55,18 @@
         </div>
 
         <ul id="menu" class="shadow">
-          <li>
-              <a href="https://github.com/gml16" class="no-scroll"><i class="fa fa-github" aria-hidden="true"></i></a>
-          </li>
-          <li>
-              <a href="https://www.linkedin.com/in/guy-leroy/" class="no-scroll"><i class="fa fa-linkedin" aria-hidden="true"> </i> </a>
-          </li>
-          <li>
-              <a href="mailto:g.m.leroy@outlook.com" class="no-scroll"><i class="fa fa-envelope" aria-hidden="true"> </i> </a>
-          </li>
-          <li>
-              <a href="https://scholar.google.co.uk/citations?user=QPl_cn4AAAAJ&hl=en" class="no-scroll"><i class="fa fa-graduation-cap" aria-hidden="true"> </i> </a>
-          </li>
+            <li>
+                <a href="https://www.linkedin.com/in/guy-leroy/" class="no-scroll"><i class="fa fa-linkedin" aria-hidden="true"> </i> </a>
+            </li>
+            <li>
+                <a href="https://scholar.google.co.uk/citations?user=QPl_cn4AAAAJ&hl=en" class="no-scroll"><i class="fa fa-graduation-cap" aria-hidden="true"> </i> </a>
+            </li>
+            <li>
+                <a href="https://github.com/gml16" class="no-scroll"><i class="fa fa-github" aria-hidden="true"></i></a>
+            </li>
+            <li>
+                <a href="mailto:g.m.leroy@outlook.com" class="no-scroll"><i class="fa fa-envelope" aria-hidden="true"> </i> </a>
+            </li>
         </ul>
 
     </header>
@@ -101,8 +101,9 @@
                 </div>
                 <div class="col-md-8">
                     <p>
-                        Hi! My name is Guy Leroy and I am currently an Associate Researcher at Microsoft Research, working in the <a href="https://www.microsoft.com/en-us/research/group/deep-reinforcement-learning/">Deep Reinforcement Learning for Games</a> team.
-                        I previously graduated from Imperial College London with an MEng in Mathematics & Computer Science.
+                        Hi! My name is Guy Leroy and I am currently a Machine Learning Engineer at TikTok focusing on spam, bots, and fake engagement prevention as part of the BRIC Risk Systems ML foundation team.
+                        Previously, I was an Associate Researcher at Microsoft Research, working in the <a href="https://www.microsoft.com/en-us/research/group/deep-reinforcement-learning/">Deep Reinforcement Learning for Games</a> team.
+                        I graduated from Imperial College London with an MEng in Mathematics & Computer Science.
                         My Master's thesis was titled <a href="https://github.com/gml16/rl-medical">Multi-agent Deep Reinforcement Learning for Anatomical Landmark Detection</a>, and supervised by Dr. A. Alansary and Prof. D. Rueckert.
                         <!--I love learning about new technologies and deploying elegant solutions to complex problems.-->
                     </p>
@@ -115,15 +116,23 @@
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
-            <div data-date="Aug. 2020 – Present">
+            <div data-date="Aug. 2022 – Present">
+                <h3>TikTok</h3>
+                <h4>Machine Learning Engineer</h4>
+                <p>
+                    Focusing on spam, bots, and fake engagement prevention as part of the BRIC Risk Systems ML foundation team.
+                <p>
+            </div>
+            <div data-date="Aug. 2020 – Aug. 2022">
                 <h3>Microsoft Research</h3>
                 <h4>Associate Researcher</h4>
                 <p>
                     Working in the Deep Reinforcement Learning for Games team focusing on multi-agent collaboration.
                     <ul>
-                        <li>Designed and integrated state-of-the-art Deep Reinforcement Learning (DRL) solutions to AAA games.</li>
-                        <li>Co-authored "Navigation Turing Test (NTT): Learning to Evaluate Human-Like Navigation" by Devlin et al. published in ICML '21.</li>
-                        <li>Speaker at <a href="https://www.gdcvault.com/play/1027936/AI-Summit-Age-of-Empires">GDC AI Summit on “Age of Empires IV: Machine Learning Trials and Tribulations”</a>.</li>
+                        <li>Designed and integrated state-of-the-art Deep Reinforcement Learning solutions to AAA games.</li>
+                        <li>Co-authored <a href="http://proceedings.mlr.press/v139/devlin21a.html">"Navigation Turing Test (NTT): Learning to Evaluate Human-Like Navigation"</a> at ICML '21.</li>
+                        <li>Published <a href="https://dl.acm.org/doi/10.1145/3491101.3519735">“How Humans Perceive Human-like Behavior in Video Game Navigation”</a> at CHI '22.</li>
+                        <li>Speaker at <a href="https://www.gdcvault.com/play/1027936/AI-Summit-Age-of-Empires">GDC AI Summit '22 on “Age of Empires IV: Machine Learning Trials and Tribulations”</a>.</li>
                     </ul>
                 <p>
             </div>
@@ -189,7 +198,7 @@
             </p>
         </div>
         <!-- End .education-block -->
-
+        <!-- 
         <div class="education-block">
             <h3>French School Charles de Gaulle, London</h3>
             <span class="education-date">Sep. 2013 - Jul. 2016</span>
@@ -198,14 +207,61 @@
                 <i>Mention Très Bien</i> (with Honours).
             </p>
         </div>
-        <!-- End .education-block -->
+        -->
     </div>
     <!-- End #education -->
 
     <div id="projects" class="background-alt">
-        <h2 class="heading">Projects</h2>
+        <h2 class="heading">Projects & Publications</h2>
         <div class="container">
             <div class="row">
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/age_naval_battles.gif" width="300"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Naval battles in Age of Empires IV</h3>
+                        <p>
+                            In this project in collaboration with World's Edge studio, we train Multi-Agent Reinforcement Learning (RL) naval units in <a href="https://store.steampowered.com/app/1466860/Age_of_Empires_IV">Age of Empires IV </a>.
+                            The aim, unlike related work, is not to reach superhuman performances and beat the top players. The aim is to build a more immersive and enjoyable experience for the players by creating more human-like opponents.
+                            This work was presented at GDC AI summit '22, “Age of Empires IV: Machine Learning Trials and Tribulations”. My co-speaker Peter Chan speaks about how battle outcomes are predicted using supervised learning.
+                            Disclaimer: the RL naval units are not in the released version of the game.
+                        </p>
+                        <a href="https://www.gdcvault.com/play/1027936/AI-Summit-Age-of-Empires"><i class="fa fa-play-circle"></i> View talk (requires GDC subscription) </a></div>
+
+                    </div>
+                </div>
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/chi22.gif" width="300"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>How Humans Perceive Human-like Behavior in Video Game Navigation</h3>
+                        <p>
+                            How well do people assess human-likeness in human- and AI-generated behavior? We present a qualitative study of hundreds of crowd-sourced assessments of human-likeness of behavior in a 3D video game navigation task. We focus on an AI agent that has passed a Navigation Turing Test. We give insights on the characteristics that people consider as human-like. Understanding these characteristics is a key first step for improving AI agents in the future.
+                        </p>
+                        <a href="https://dl.acm.org/doi/10.1145/3491101.3519735"><i class="fa fa-file"></i> CHI '22 publication</a>
+                    </div>
+                </div>
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/icml21.png" width="300"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Navigation Turing Test (NTT): Learning to Evaluate Human-Like Navigation</h3>
+                        <p>
+                            A key challenge on the path to developing agents that learn complex human-like behavior is the need to quickly and accurately quantify human-likeness. We present an automated Navigation Turing Test. 
+                            We demonstrate the effectiveness of our automated NTT on a navigation task in a complex 3D environment. Our best models achieve high accuracy when distinguishing true human and agent behavior.    
+                        </p>
+                        <a href="http://proceedings.mlr.press/v139/devlin21a.html"><i class="fa fa-file"></i> ICML '21 publication</a>
+                    </div>
+                </div>
 
                 <div class="project shadow-large">
                     <div class="project-image">
@@ -244,13 +300,11 @@
                         </div>
                     </div>
                 </div>
-                <!-- End .project -->
-
+                <!--
                 <div class="project shadow-large">
                     <div class="project-image">
                         <img src="images/play4us.PNG" />
                     </div>
-                    <!-- End .project-image -->
                     <div class="project-info">
                         <h3>Play4us, IC Hack 2020</h3>
                         <p>
@@ -261,17 +315,15 @@
                         <div class="row">
                             <div class="column"><a href="https://devpost.com/software/play4us"><i class="fa fa-code" aria-hidden="true"></i> View on Devpost </a></div>
                             <div class="column"><a href="https://github.com/gml16/ichack20"><i class="fa fa-github" aria-hidden="true"></i> View on Github </a></div>
-                            <!--<div class="column"><a href="https://youtu.be/q__uzQtw48o"><i class="fa fa-play-circle" aria-hidden="true"></i> View demo </a></div>-->
+                            <div class="column"><a href="https://youtu.be/q__uzQtw48o"><i class="fa fa-play-circle" aria-hidden="true"></i> View demo </a></div>
                         </div>
                     </div>
                 </div>
-                <!-- End .project -->
 
                 <div class="project shadow-large">
                     <div class="project-image">
                         <img src="images/ChangeXChange.png" />
                     </div>
-                    <!-- End .project-image -->
                     <div class="project-info">
                         <h3>ChangeXChange</h3>
                         <p>
@@ -290,13 +342,11 @@
                         </div>
                     </div>
                 </div>
-                <!-- End .project -->
 
                 <div class="project shadow-large">
                     <div class="project-image">
                         <img src="images/munsjuk.jpg" />
                     </div>
-                    <!-- End .project-image -->
                     <div class="project-info">
                         <h3>Munsjuk, IC Health Hack 2019</h3>
                         <p>
@@ -310,13 +360,11 @@
                         </div>
                     </div>
                 </div>
-                <!-- End .project -->
 
                 <div class="project shadow-large">
                     <div class="project-image">
                         <img src="images/ArachnophobicTurret.png" />
                     </div>
-                    <!-- End .project-image -->
                     <div class="project-info">
                         <h3>Unity 3D games</h3>
                         <p>
@@ -327,13 +375,14 @@
                         <a href="https://gml16.itch.io"><i class="fa fa-gamepad" aria-hidden="true"></i> Play on Itch.io </a>
                     </div>
                 </div>
-                <!-- End .project -->
+               -->
 
             </div>
         </div>
     </div>
     <!-- End #projects -->
 
+    <!--
     <div id="skills">
         <h2 class="heading">Skills</h2>
         <ul>
@@ -341,22 +390,23 @@
 
             <li>Python</li>
             <li>Machine Learning</li>
-            <!--<li>Computer Vision</li>-->
-            <!--<li>C</li>-->
+            <li>Computer Vision</li>
+            <li>C</li>
             <li>C++</li>
-            <!--<li>Prolog </li>-->
-            <!--<li>Haskell</li>-->
+            <li>Prolog </li>
+            <li>Haskell</li>
             <li>Java</li>
             <li>C#</li>
             <li>JavaScript</li>
             <li>Unity</li>
             <li>Git</li>
-            <!--<li>Web Development</li>-->
-            <!--<li>Solidity</li>-->
-            <!--<li>GCP</li>-->
-            <!--<li>UiPath</li>-->
+            <li>Web Development</li>
+            <li>Solidity</li>
+            <li>GCP</li>
+            <li>UiPath</li>
         </ul>
     </div>
+    -->
     <!-- End #skills -->
 
     <div id="contact">
@@ -385,10 +435,13 @@
                 <div class="col-sm-5 social">
                     <ul>
                         <li>
-                            <a href="https://github.com/gml16"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/guy-leroy/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/in/guy-leroy/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a href="https://scholar.google.co.uk/citations?user=QPl_cn4AAAAJ&hl=en"><i class="fa fa-graduation-cap" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/gml16"><i class="fa fa-github" aria-hidden="true"></i></a>
                         </li>
                         <li>
                             <a href="mailto:g.m.leroy@outlook.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
